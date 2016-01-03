@@ -1,0 +1,9 @@
+doctype html
+html(ng-app="Multivision")
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    include scripts
+  body(ng-controller="mainCtrl",ng-view)
+    block content
+
